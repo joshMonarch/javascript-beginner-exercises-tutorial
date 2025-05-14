@@ -1,8 +1,8 @@
 function getRandomInt()
 {
 	let randomNumber = Math.random();
-	return randomNumber;
+	return Math.floor(randomNumber*10 + 1);
 }
 
 
-console.log(getRandomInt());
+console.log(getRandomInt() + 1);
